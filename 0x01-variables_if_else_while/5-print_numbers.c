@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - main start function
+/**
+ * main - start function
  *
  * Return: 0 is success
  */
