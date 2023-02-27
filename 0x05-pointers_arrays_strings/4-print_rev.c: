@@ -1,0 +1,24 @@
+:16:2: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |  for (int i = len - 1; i >= 0; i--)
+      |  ^~~
+4-print_rev.c:16:2: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+4-print_rev.c:21:9: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   21 |  return (len);
+      |         ^
+4-print_rev.c:9:6: note: declared here
+    9 | void print_rev(char *s)
+      |:16:2: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   16 |  for (int i = len - 1; i >= 0; i--)
+      |  ^~~
+4-print_rev.c:16:2: note: use option ‘-std=c99’, ‘-std=gnu99’, ‘-std=c11’ or ‘-std=gnu11’ to compile your code
+4-print_rev.c:21:9: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   21 |  return (len);
+      |         ^
+4-print_rev.c:9:6: note: declared here
+    9 | void print_rev(char *s)
+      |      ^~~~~~~~~
+cc1: all warnings being treated as errors:      ^~~~~~~~~
+:x
+
+ls
+clear
