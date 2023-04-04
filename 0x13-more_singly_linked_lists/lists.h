@@ -32,5 +32,7 @@ void print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **hptr);
 listint_t *find_listint_loop(listint_t *head);
 void free_listint2(listint_t **head);
+int sum_listint(listint_t *head);
+
 
 #endif
